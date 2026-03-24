@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="510" viewBox="0 0 600 510">
+<rect width="100%" height="100%" fill="#ffffff" />
+<text x="170" y="28" font-size="20" font-weight="700" fill="#0f172a">Correlation Matrix for Mumbai Petrol Price, Diesel Price, Spread, and Daily Changes</text>
+<text x="158" y="123" font-size="12" text-anchor="end" fill="#334155">Petrol price</text><text x="158" y="201" font-size="12" text-anchor="end" fill="#334155">Diesel price</text><text x="158" y="279" font-size="12" text-anchor="end" fill="#334155">Price spread</text><text x="158" y="357" font-size="12" text-anchor="end" fill="#334155">Petrol daily change</text><text x="158" y="435" font-size="12" text-anchor="end" fill="#334155">Diesel daily change</text>
+<text x="209" y="68" font-size="12" text-anchor="start" fill="#334155" transform="rotate(-35 209 68)">Petrol price</text><text x="287" y="68" font-size="12" text-anchor="start" fill="#334155" transform="rotate(-35 287 68)">Diesel price</text><text x="365" y="68" font-size="12" text-anchor="start" fill="#334155" transform="rotate(-35 365 68)">Price spread</text><text x="443" y="68" font-size="12" text-anchor="start" fill="#334155" transform="rotate(-35 443 68)">Petrol daily change</text><text x="521" y="68" font-size="12" text-anchor="start" fill="#334155" transform="rotate(-35 521 68)">Diesel daily change</text>
+<rect x="170" y="80" width="78" height="78" fill="rgb(190, 145, 75)" stroke="#ffffff" />
+      <text x="209" y="123" font-size="12" text-anchor="middle" fill="#0f172a">1</text><rect x="248" y="80" width="78" height="78" fill="rgb(191, 147, 78)" stroke="#ffffff" />
+      <text x="287" y="123" font-size="12" text-anchor="middle" fill="#0f172a">0.98</text><rect x="326" y="80" width="78" height="78" fill="rgb(231, 214, 188)" stroke="#ffffff" />
+      <text x="365" y="123" font-size="12" text-anchor="middle" fill="#0f172a">0.37</text><rect x="404" y="80" width="78" height="78" fill="rgb(255, 255, 255)" stroke="#ffffff" />
+      <text x="443" y="123" font-size="12" text-anchor="middle" fill="#0f172a">0</text><rect x="482" y="80" width="78" height="78" fill="rgb(255, 253, 253)" stroke="#ffffff" />
+      <text x="521" y="123" font-size="12" text-anchor="middle" fill="#0f172a">-0.01</text><rect x="170" y="158" width="78" height="78" fill="rgb(191, 147, 78)" stroke="#ffffff" />
+      <text x="209" y="201" font-size="12" text-anchor="middle" fill="#0f172a">0.98</text><rect x="248" y="158" width="78" height="78" fill="rgb(190, 145, 75)" stroke="#ffffff" />
+      <text x="287" y="201" font-size="12" text-anchor="middle" fill="#0f172a">1</text><rect x="326" y="158" width="78" height="78" fill="rgb(242, 233, 220)" stroke="#ffffff" />
+      <text x="365" y="201" font-size="12" text-anchor="middle" fill="#0f172a">0.2</text><rect x="404" y="158" width="78" height="78" fill="rgb(255, 255, 255)" stroke="#ffffff" />
+      <text x="443" y="201" font-size="12" text-anchor="middle" fill="#0f172a">0</text><rect x="482" y="158" width="78" height="78" fill="rgb(255, 254, 254)" stroke="#ffffff" />
+      <text x="521" y="201" font-size="12" text-anchor="middle" fill="#0f172a">-0.01</text><rect x="170" y="236" width="78" height="78" fill="rgb(231, 214, 188)" stroke="#ffffff" />
+      <text x="209" y="279" font-size="12" text-anchor="middle" fill="#0f172a">0.37</text><rect x="248" y="236" width="78" height="78" fill="rgb(242, 233, 220)" stroke="#ffffff" />
+      <text x="287" y="279" font-size="12" text-anchor="middle" fill="#0f172a">0.2</text><rect x="326" y="236" width="78" height="78" fill="rgb(190, 145, 75)" stroke="#ffffff" />
+      <text x="365" y="279" font-size="12" text-anchor="middle" fill="#0f172a">1</text><rect x="404" y="236" width="78" height="78" fill="rgb(255, 251, 251)" stroke="#ffffff" />
+      <text x="443" y="279" font-size="12" text-anchor="middle" fill="#0f172a">-0.02</text><rect x="482" y="236" width="78" height="78" fill="rgb(254, 250, 250)" stroke="#ffffff" />
+      <text x="521" y="279" font-size="12" text-anchor="middle" fill="#0f172a">-0.03</text><rect x="170" y="314" width="78" height="78" fill="rgb(255, 255, 255)" stroke="#ffffff" />
+      <text x="209" y="357" font-size="12" text-anchor="middle" fill="#0f172a">0</text><rect x="248" y="314" width="78" height="78" fill="rgb(255, 255, 255)" stroke="#ffffff" />
+      <text x="287" y="357" font-size="12" text-anchor="middle" fill="#0f172a">0</text><rect x="326" y="314" width="78" height="78" fill="rgb(255, 251, 251)" stroke="#ffffff" />
+      <text x="365" y="357" font-size="12" text-anchor="middle" fill="#0f172a">-0.02</text><rect x="404" y="314" width="78" height="78" fill="rgb(190, 145, 75)" stroke="#ffffff" />
+      <text x="443" y="357" font-size="12" text-anchor="middle" fill="#0f172a">1</text><rect x="482" y="314" width="78" height="78" fill="rgb(197, 157, 95)" stroke="#ffffff" />
+      <text x="521" y="357" font-size="12" text-anchor="middle" fill="#0f172a">0.89</text><rect x="170" y="392" width="78" height="78" fill="rgb(255, 253, 253)" stroke="#ffffff" />
+      <text x="209" y="435" font-size="12" text-anchor="middle" fill="#0f172a">-0.01</text><rect x="248" y="392" width="78" height="78" fill="rgb(255, 254, 254)" stroke="#ffffff" />
+      <text x="287" y="435" font-size="12" text-anchor="middle" fill="#0f172a">-0.01</text><rect x="326" y="392" width="78" height="78" fill="rgb(254, 250, 250)" stroke="#ffffff" />
+      <text x="365" y="435" font-size="12" text-anchor="middle" fill="#0f172a">-0.03</text><rect x="404" y="392" width="78" height="78" fill="rgb(197, 157, 95)" stroke="#ffffff" />
+      <text x="443" y="435" font-size="12" text-anchor="middle" fill="#0f172a">0.89</text><rect x="482" y="392" width="78" height="78" fill="rgb(190, 145, 75)" stroke="#ffffff" />
+      <text x="521" y="435" font-size="12" text-anchor="middle" fill="#0f172a">1</text>
+</svg>

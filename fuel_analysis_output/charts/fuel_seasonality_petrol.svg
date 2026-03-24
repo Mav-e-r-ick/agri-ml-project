@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="500" viewBox="0 0 1150 500">
+<rect width="100%" height="100%" fill="#ffffff" />
+<text x="80" y="22" font-size="20" font-weight="700" fill="#0f172a">Average Mumbai Petrol Price by Calendar Month Across the Full Study Period</text>
+<line x1="80" y1="430" x2="1120" y2="430" stroke="#475569" stroke-width="1.5" />
+<line x1="80" y1="30" x2="80" y2="430" stroke="#475569" stroke-width="1.5" />
+<rect x="86" y="69.39457083862175" width="74.66666666666667" height="360.60542916137825" fill="#b91c1c" rx="4" />
+      <text x="123.33333333333334" y="452" font-size="10" text-anchor="end" fill="#475569" transform="rotate(-35 123.33333333333334 452)">January</text><rect x="172.66666666666669" y="68.22008372956492" width="74.66666666666667" height="361.7799162704351" fill="#b91c1c" rx="4" />
+      <text x="210.00000000000003" y="452" font-size="10" text-anchor="end" fill="#475569" transform="rotate(-35 210.00000000000003 452)">February</text><rect x="259.33333333333337" y="70.26596450018002" width="74.66666666666667" height="359.73403549982" fill="#b91c1c" rx="4" />
+      <text x="296.6666666666667" y="452" font-size="10" text-anchor="end" fill="#475569" transform="rotate(-35 296.6666666666667 452)">March</text><rect x="346" y="66.36363636363643" width="74.66666666666667" height="363.63636363636357" fill="#b91c1c" rx="4" />
+      <text x="383.3333333333333" y="452" font-size="10" text-anchor="end" fill="#475569" transform="rotate(-35 383.3333333333333 452)">April</text><rect x="432.6666666666667" y="66.36363636363643" width="74.66666666666667" height="363.63636363636357" fill="#b91c1c" rx="4" />
+      <text x="470" y="452" font-size="10" text-anchor="end" fill="#475569" transform="rotate(-35 470 452)">May</text><rect x="519.3333333333334" y="69.31879747674708" width="74.66666666666667" height="360.6812025232529" fill="#b91c1c" rx="4" />
+      <text x="556.6666666666667" y="452" font-size="10" text-anchor="end" fill="#475569" transform="rotate(-35 556.6666666666667 452)">June</text><rect x="606" y="71.28890488548757" width="74.66666666666667" height="358.71109511451243" fill="#b91c1c" rx="4" />
+      <text x="643.3333333333334" y="452" font-size="10" text-anchor="end" fill="#475569" transform="rotate(-35 643.3333333333334 452)">July</text><rect x="692.6666666666667" y="70.34173786205463" width="74.66666666666667" height="359.65826213794537" fill="#b91c1c" rx="4" />
+      <text x="730.0000000000001" y="452" font-size="10" text-anchor="end" fill="#475569" transform="rotate(-35 730.0000000000001 452)">August</text><rect x="779.3333333333334" y="67.31080338706931" width="74.66666666666667" height="362.6891966129307" fill="#b91c1c" rx="4" />
+      <text x="816.6666666666667" y="452" font-size="10" text-anchor="end" fill="#475569" transform="rotate(-35 816.6666666666667 452)">September</text><rect x="866" y="67.19714334425737" width="74.66666666666667" height="362.80285665574263" fill="#b91c1c" rx="4" />
+      <text x="903.3333333333334" y="452" font-size="10" text-anchor="end" fill="#475569" transform="rotate(-35 903.3333333333334 452)">October</text><rect x="952.6666666666667" y="69.47034420049641" width="74.66666666666667" height="360.5296557995036" fill="#b91c1c" rx="4" />
+      <text x="990.0000000000001" y="452" font-size="10" text-anchor="end" fill="#475569" transform="rotate(-35 990.0000000000001 452)">November</text><rect x="1039.3333333333335" y="70.75849135236518" width="74.66666666666667" height="359.2415086476348" fill="#b91c1c" rx="4" />
+      <text x="1076.6666666666667" y="452" font-size="10" text-anchor="end" fill="#475569" transform="rotate(-35 1076.6666666666667 452)">December</text>
+<text x="18" y="230" font-size="12" fill="#475569" transform="rotate(-90 18 230)">Average petrol price in rupees per litre</text>
+</svg>

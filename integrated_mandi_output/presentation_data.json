@@ -1,0 +1,303 @@
+{
+  "title": "Integrated Onion and Tomato Mandi Price Intelligence",
+  "summary": {
+    "commonDates": 3085,
+    "dateRange": {
+      "start": "2017-06-16",
+      "end": "2026-03-06"
+    },
+    "onion": {
+      "descriptive": {
+        "count": 19754,
+        "mean": 1573.77,
+        "median": 1275,
+        "std": 1170.06,
+        "min": 6,
+        "q1": 900,
+        "q3": 1900,
+        "max": 75000,
+        "iqr": 1000,
+        "cv": 0.74
+      },
+      "outliers": {
+        "lower": -600,
+        "upper": 3400,
+        "count": 1353,
+        "percentage": 6.85
+      },
+      "dataQuality": {
+        "missingModal": 0,
+        "duplicateRows": 6
+      },
+      "bestLambda": 0.1,
+      "trainCount": 2420,
+      "testCount": 605,
+      "metrics": {
+        "mae": 150.79,
+        "rmse": 247.88,
+        "r2": 0.9371
+      },
+      "baseline": {
+        "mae": 153.45,
+        "rmse": 274.88,
+        "r2": 0.9227
+      },
+      "residualSummary": {
+        "count": 605,
+        "mean": 2.38,
+        "median": -11.46,
+        "std": 247.87,
+        "min": -852.41,
+        "q1": -112.43,
+        "q3": 90.62,
+        "max": 2949.89,
+        "iqr": 203.05,
+        "cv": 104.14
+      },
+      "cvScores": [
+        {
+          "lambda": 0.1,
+          "avgRmse": 304.338
+        },
+        {
+          "lambda": 1,
+          "avgRmse": 304.442
+        },
+        {
+          "lambda": 3,
+          "avgRmse": 304.682
+        },
+        {
+          "lambda": 10,
+          "avgRmse": 305.596
+        },
+        {
+          "lambda": 30,
+          "avgRmse": 308.28
+        },
+        {
+          "lambda": 100,
+          "avgRmse": 316.11199999999997
+        }
+      ]
+    },
+    "tomato": {
+      "descriptive": {
+        "count": 18760,
+        "mean": 1587.95,
+        "median": 1250,
+        "std": 1173.37,
+        "min": 10,
+        "q1": 850,
+        "q3": 2000,
+        "max": 15000,
+        "iqr": 1150,
+        "cv": 0.74
+      },
+      "outliers": {
+        "lower": -875,
+        "upper": 3725,
+        "count": 1000,
+        "percentage": 5.33
+      },
+      "dataQuality": {
+        "missingModal": 0,
+        "duplicateRows": 2
+      },
+      "bestLambda": 0.1,
+      "trainCount": 2456,
+      "testCount": 615,
+      "metrics": {
+        "mae": 199.71,
+        "rmse": 287.84,
+        "r2": 0.894
+      },
+      "baseline": {
+        "mae": 216.39,
+        "rmse": 310.88,
+        "r2": 0.8764
+      },
+      "residualSummary": {
+        "count": 615,
+        "mean": 2.83,
+        "median": -15.26,
+        "std": 287.83,
+        "min": -1424.52,
+        "q1": -137.83,
+        "q3": 125.02,
+        "max": 1587.26,
+        "iqr": 262.85,
+        "cv": 101.71
+      },
+      "cvScores": [
+        {
+          "lambda": 0.1,
+          "avgRmse": 260.628
+        },
+        {
+          "lambda": 1,
+          "avgRmse": 260.72799999999995
+        },
+        {
+          "lambda": 3,
+          "avgRmse": 261.16999999999996
+        },
+        {
+          "lambda": 10,
+          "avgRmse": 262.774
+        },
+        {
+          "lambda": 30,
+          "avgRmse": 266.332
+        },
+        {
+          "lambda": 100,
+          "avgRmse": 276.584
+        }
+      ]
+    },
+    "forecast": {
+      "onion": [
+        {
+          "date": "2026-03-07",
+          "predicted": 990.56
+        },
+        {
+          "date": "2026-03-08",
+          "predicted": 1009.65
+        },
+        {
+          "date": "2026-03-09",
+          "predicted": 1019.36
+        },
+        {
+          "date": "2026-03-10",
+          "predicted": 1020.38
+        },
+        {
+          "date": "2026-03-11",
+          "predicted": 993.94
+        },
+        {
+          "date": "2026-03-12",
+          "predicted": 956.83
+        },
+        {
+          "date": "2026-03-13",
+          "predicted": 956.55
+        },
+        {
+          "date": "2026-03-14",
+          "predicted": 950.31
+        },
+        {
+          "date": "2026-03-15",
+          "predicted": 975.07
+        },
+        {
+          "date": "2026-03-16",
+          "predicted": 960.93
+        },
+        {
+          "date": "2026-03-17",
+          "predicted": 957.49
+        },
+        {
+          "date": "2026-03-18",
+          "predicted": 945.67
+        },
+        {
+          "date": "2026-03-19",
+          "predicted": 918.19
+        },
+        {
+          "date": "2026-03-20",
+          "predicted": 924.2
+        }
+      ],
+      "tomato": [
+        {
+          "date": "2026-03-07",
+          "predicted": 1235.75
+        },
+        {
+          "date": "2026-03-08",
+          "predicted": 1259.2
+        },
+        {
+          "date": "2026-03-09",
+          "predicted": 1258.86
+        },
+        {
+          "date": "2026-03-10",
+          "predicted": 1251.39
+        },
+        {
+          "date": "2026-03-11",
+          "predicted": 1249.18
+        },
+        {
+          "date": "2026-03-12",
+          "predicted": 1243.6
+        },
+        {
+          "date": "2026-03-13",
+          "predicted": 1235.66
+        },
+        {
+          "date": "2026-03-14",
+          "predicted": 1227.3
+        },
+        {
+          "date": "2026-03-15",
+          "predicted": 1236.45
+        },
+        {
+          "date": "2026-03-16",
+          "predicted": 1230.08
+        },
+        {
+          "date": "2026-03-17",
+          "predicted": 1217.51
+        },
+        {
+          "date": "2026-03-18",
+          "predicted": 1216.97
+        },
+        {
+          "date": "2026-03-19",
+          "predicted": 1214.9
+        },
+        {
+          "date": "2026-03-20",
+          "predicted": 1202.44
+        }
+      ]
+    },
+    "prescriptive": [
+      "Onion is forecasted to soften over the next two weeks, so traders should consider faster release, especially if holding costs and shrinkage risk increase.",
+      "Tomato is forecasted to weaken or remain fragile, so the prescriptive action is to prioritize immediate harvesting, sorting, and dispatch to reduce spoilage losses.",
+      "Current low rainfall conditions suggest transport friction is not the main constraint, so price planning can focus more on demand and arrivals.",
+      "Higher Mumbai fuel prices imply transport cost pressure, so grouping shipments and optimizing route density can help protect margins."
+    ],
+    "filesUsed": {
+      "weather": [
+        "Ahmednagar_Daily_20150101_20260314_018d22N_074d53E_LST.csv",
+        "Kalyan_Daily_20150101_20260314_019d24N_073d13E_LST.csv",
+        "Mumbai_Daily_20150101_20260314_018d97N_072d82E_LST.csv",
+        "Nashik_Weather_Daily_20150101_20260314_019d99N_073d78E_LST.csv",
+        "Pune_weather_Daily_20150101_20260314_018d62N_073d61E_LST.csv",
+        "Satara_Daily_20150101_20260314_017d69N_074d01E_LST.csv"
+      ]
+    }
+  },
+  "charts": {
+    "combinedTrend": "C:\\Users\\mysti\\Downloads\\Agri ML Project\\integrated_mandi_output\\charts\\combined_monthly_price_trend.svg",
+    "seasonality": "C:\\Users\\mysti\\Downloads\\Agri ML Project\\integrated_mandi_output\\charts\\combined_monthly_seasonality.svg",
+    "onionCorr": "C:\\Users\\mysti\\Downloads\\Agri ML Project\\integrated_mandi_output\\charts\\onion_correlation_heatmap.svg",
+    "tomatoCorr": "C:\\Users\\mysti\\Downloads\\Agri ML Project\\integrated_mandi_output\\charts\\tomato_correlation_heatmap.svg",
+    "onionPred": "C:\\Users\\mysti\\Downloads\\Agri ML Project\\integrated_mandi_output\\charts\\onion_prediction_vs_actual.svg",
+    "tomatoPred": "C:\\Users\\mysti\\Downloads\\Agri ML Project\\integrated_mandi_output\\charts\\tomato_prediction_vs_actual.svg",
+    "forecast": "C:\\Users\\mysti\\Downloads\\Agri ML Project\\integrated_mandi_output\\charts\\future_forecast_comparison.svg"
+  }
+}

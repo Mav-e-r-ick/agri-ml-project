@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="480" viewBox="0 0 1100 480">
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <text x="70" y="22" font-size="20" font-weight="700" fill="#0f172a">Tomato Average Modal Price in the Ten Most Frequently Observed Markets</text>
+  <line x1="70" y1="425" x2="1070" y2="425" stroke="#e5e7eb" stroke-width="1" />
+    <text x="60" y="429" font-size="12" text-anchor="end" fill="#475569">0</text>
+<line x1="70" y1="346" x2="1070" y2="346" stroke="#e5e7eb" stroke-width="1" />
+    <text x="60" y="350" font-size="12" text-anchor="end" fill="#475569">534.29</text>
+<line x1="70" y1="267" x2="1070" y2="267" stroke="#e5e7eb" stroke-width="1" />
+    <text x="60" y="271" font-size="12" text-anchor="end" fill="#475569">1068.57</text>
+<line x1="70" y1="188" x2="1070" y2="188" stroke="#e5e7eb" stroke-width="1" />
+    <text x="60" y="192" font-size="12" text-anchor="end" fill="#475569">1602.86</text>
+<line x1="70" y1="109" x2="1070" y2="109" stroke="#e5e7eb" stroke-width="1" />
+    <text x="60" y="113" font-size="12" text-anchor="end" fill="#475569">2137.14</text>
+<line x1="70" y1="30" x2="1070" y2="30" stroke="#e5e7eb" stroke-width="1" />
+    <text x="60" y="34" font-size="12" text-anchor="end" fill="#475569">2671.43</text>
+  <line x1="70" y1="425" x2="1070" y2="425" stroke="#475569" stroke-width="1.5" />
+  <line x1="70" y1="30" x2="70" y2="425" stroke="#475569" stroke-width="1.5" />
+  <rect x="75" y="174.9175047935494" width="90" height="250.0824952064506" fill="#0f766e" rx="4" />
+      <text x="120" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 120 443)">Pune(Pimpri)</text>
+<rect x="175" y="220.47232258996965" width="90" height="204.52767741003035" fill="#0f766e" rx="4" />
+      <text x="220" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 220 443)">Pune</text>
+<rect x="275" y="199.18949012451696" width="90" height="225.81050987548304" fill="#0f766e" rx="4" />
+      <text x="320" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 320 443)">Junnar(Narayangaon)</text>
+<rect x="375" y="189.12647707397088" width="90" height="235.87352292602912" fill="#0f766e" rx="4" />
+      <text x="420" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 420 443)">Khed(Chakan)</text>
+<rect x="475" y="239.9856157079439" width="90" height="185.0143842920561" fill="#0f766e" rx="4" />
+      <text x="520" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 520 443)">Pune(Khadiki)</text>
+<rect x="575" y="133.1499814590734" width="90" height="291.8500185409266" fill="#0f766e" rx="4" />
+      <text x="620" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 620 443)">Pune(Manjri)</text>
+<rect x="675" y="194.7874122660428" width="90" height="230.2125877339572" fill="#0f766e" rx="4" />
+      <text x="720" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 720 443)">Pune(Moshi)</text>
+<rect x="775" y="95.27375617115871" width="90" height="329.7262438288413" fill="#0f766e" rx="4" />
+      <text x="820" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 820 443)">Manchar</text>
+<rect x="875" y="100.62858060771879" width="90" height="324.3714193922812" fill="#0f766e" rx="4" />
+      <text x="920" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 920 443)">Pune(Pimpri) APMC</text>
+<rect x="975" y="65.90909090909099" width="90" height="359.090909090909" fill="#0f766e" rx="4" />
+      <text x="1020" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 1020 443)">Pune(Manjri) APMC</text>
+  <text x="18" y="227.5" font-size="12" fill="#475569" transform="rotate(-90 18 227.5)">Average modal price in rupees per quintal</text>
+</svg>

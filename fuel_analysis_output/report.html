@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mumbai Fuel Price Analysis</title>
+  <style>
+    :root { --bg:#f8fafc; --card:#fff; --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --accent:#9a3412; }
+    body { margin:0; font-family: Georgia, "Times New Roman", serif; background:linear-gradient(180deg,#fff7ed 0%,#f8fafc 35%); color:var(--ink); }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 30px 20px 48px; }
+    h1 { margin:0 0 8px; font-size:2.2rem; }
+    .lead { color:var(--muted); line-height:1.6; max-width:900px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:18px; box-shadow:0 12px 30px rgba(15,23,42,.06); padding:22px; margin-top:22px; }
+    .stats { display:grid; grid-template-columns: repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin:18px 0 24px; }
+    .stats div { border:1px solid var(--line); border-radius:12px; padding:12px 14px; background:#fff; }
+    .stats strong { display:block; margin-bottom:6px; }
+    .stats span { color:var(--accent); font-size:1.15rem; }
+    .grid { display:grid; grid-template-columns:1fr; gap:18px; }
+    img { width:100%; border:1px solid var(--line); border-radius:12px; background:#fff; }
+    ul { line-height:1.6; }
+    @media (min-width: 960px) { .grid { grid-template-columns:1fr 1fr; } }
+    @media print { body { background:#fff; } .card { box-shadow:none; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Mumbai Fuel Price Analysis With Lag Based Machine Learning Models</h1>
+    <p class="lead">This report uses the Mumbai petrol and diesel data extracted from the Excel files in the Fuel price folder. It documents the workflow from raw data extraction through descriptive statistics, exploratory analysis, correlation review, lag based machine learning models, and diagnostic validation.</p>
+
+    <section class="card">
+      <h2>Key Results</h2>
+      <div class="stats">
+        <div><strong>Common Mumbai dates</strong><span>3186</span></div>
+        <div><strong>Petrol model R2</strong><span>0.9204</span></div>
+        <div><strong>Petrol model RMSE</strong><span>0.03</span></div>
+        <div><strong>Diesel model R2</strong><span>0.9302</span></div>
+        <div><strong>Diesel model RMSE</strong><span>0.09</span></div>
+        <div><strong>Petrol outliers</strong><span>0%</span></div>
+        <div><strong>Diesel outliers</strong><span>0%</span></div>
+      </div>
+      <ul>
+        <li>The dataset was built by extracting Mumbai rows from yearly multi-city files and merging them with the later single-series fuel files.</li>
+        <li>Both models use lag periods of 1, 7, 14, and 30 days along with rolling averages and seasonal features.</li>
+        <li>Model quality is reported against a simple lag-one baseline to show the benefit of the richer feature set.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Exploratory Data Analysis</h2>
+      <div class="grid">
+        <img src="./charts/fuel_monthly_trend.svg" alt="Monthly fuel trend" />
+        <img src="./charts/fuel_monthly_spread.svg" alt="Monthly spread trend" />
+        <img src="./charts/fuel_seasonality_petrol.svg" alt="Petrol seasonality" />
+        <img src="./charts/fuel_seasonality_diesel.svg" alt="Diesel seasonality" />
+        <img src="./charts/fuel_correlation_heatmap.svg" alt="Fuel correlation heatmap" />
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Lag Based Machine Learning Models</h2>
+      <div class="grid">
+        <img src="./charts/petrol_prediction_vs_actual.svg" alt="Petrol prediction line chart" />
+        <img src="./charts/diesel_prediction_vs_actual.svg" alt="Diesel prediction line chart" />
+        <img src="./charts/petrol_prediction_scatter.svg" alt="Petrol scatter diagnostic" />
+        <img src="./charts/diesel_prediction_scatter.svg" alt="Diesel scatter diagnostic" />
+      </div>
+    </section>
+  </div>
+</body>
+</html>

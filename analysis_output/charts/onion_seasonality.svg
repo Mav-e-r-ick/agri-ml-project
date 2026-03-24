@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="480" viewBox="0 0 1100 480">
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <text x="70" y="22" font-size="20" font-weight="700" fill="#0f172a">Onion Average Modal Price by Calendar Month from 2015 to 2026</text>
+  <line x1="70" y1="425" x2="1070" y2="425" stroke="#e5e7eb" stroke-width="1" />
+    <text x="60" y="429" font-size="12" text-anchor="end" fill="#475569">0</text>
+<line x1="70" y1="346" x2="1070" y2="346" stroke="#e5e7eb" stroke-width="1" />
+    <text x="60" y="350" font-size="12" text-anchor="end" fill="#475569">532.72</text>
+<line x1="70" y1="267" x2="1070" y2="267" stroke="#e5e7eb" stroke-width="1" />
+    <text x="60" y="271" font-size="12" text-anchor="end" fill="#475569">1065.44</text>
+<line x1="70" y1="188" x2="1070" y2="188" stroke="#e5e7eb" stroke-width="1" />
+    <text x="60" y="192" font-size="12" text-anchor="end" fill="#475569">1598.16</text>
+<line x1="70" y1="109" x2="1070" y2="109" stroke="#e5e7eb" stroke-width="1" />
+    <text x="60" y="113" font-size="12" text-anchor="end" fill="#475569">2130.88</text>
+<line x1="70" y1="30" x2="1070" y2="30" stroke="#e5e7eb" stroke-width="1" />
+    <text x="60" y="34" font-size="12" text-anchor="end" fill="#475569">2663.59</text>
+  <line x1="70" y1="425" x2="1070" y2="425" stroke="#475569" stroke-width="1.5" />
+  <line x1="70" y1="30" x2="70" y2="425" stroke="#475569" stroke-width="1.5" />
+  <rect x="75" y="191.10931842115633" width="73.33333333333333" height="233.89068157884367" fill="#dc2626" rx="4" />
+      <text x="111.66666666666666" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 111.66666666666666 443)">January</text>
+<rect x="158.33333333333331" y="218.20889624736492" width="73.33333333333333" height="206.79110375263508" fill="#dc2626" rx="4" />
+      <text x="194.99999999999997" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 194.99999999999997 443)">February</text>
+<rect x="241.66666666666666" y="266.6838333155003" width="73.33333333333333" height="158.3161666844997" fill="#dc2626" rx="4" />
+      <text x="278.3333333333333" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 278.3333333333333 443)">March</text>
+<rect x="325" y="299.03456606578703" width="73.33333333333333" height="125.96543393421297" fill="#dc2626" rx="4" />
+      <text x="361.6666666666667" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 361.6666666666667 443)">April</text>
+<rect x="408.3333333333333" y="295.2218805786916" width="73.33333333333333" height="129.77811942130842" fill="#dc2626" rx="4" />
+      <text x="445" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 445 443)">May</text>
+<rect x="491.66666666666663" y="256.98083792768796" width="73.33333333333333" height="168.01916207231204" fill="#dc2626" rx="4" />
+      <text x="528.3333333333333" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 528.3333333333333 443)">June</text>
+<rect x="575" y="234.72163560901714" width="73.33333333333333" height="190.27836439098286" fill="#dc2626" rx="4" />
+      <text x="611.6666666666666" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 611.6666666666666 443)">July</text>
+<rect x="658.3333333333333" y="177.7686266117784" width="73.33333333333333" height="247.2313733882216" fill="#dc2626" rx="4" />
+      <text x="694.9999999999999" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 694.9999999999999 443)">August</text>
+<rect x="741.6666666666666" y="150.62456004009618" width="73.33333333333333" height="274.3754399599038" fill="#dc2626" rx="4" />
+      <text x="778.3333333333333" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 778.3333333333333 443)">September</text>
+<rect x="825" y="124.07515969957893" width="73.33333333333333" height="300.92484030042107" fill="#dc2626" rx="4" />
+      <text x="861.6666666666666" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 861.6666666666666 443)">October</text>
+<rect x="908.3333333333333" y="65.90909090909093" width="73.33333333333333" height="359.09090909090907" fill="#dc2626" rx="4" />
+      <text x="944.9999999999999" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 944.9999999999999 443)">November</text>
+<rect x="991.6666666666666" y="119.98367807418168" width="73.33333333333333" height="305.0163219258183" fill="#dc2626" rx="4" />
+      <text x="1028.3333333333333" y="443" font-size="11" text-anchor="end" fill="#475569" transform="rotate(-35 1028.3333333333333 443)">December</text>
+  <text x="18" y="227.5" font-size="12" fill="#475569" transform="rotate(-90 18 227.5)">Average modal price in rupees per quintal</text>
+</svg>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agricultural Price Analysis</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --ink: #0f172a;
+      --muted: #475569;
+      --line: #e2e8f0;
+      --accent: #14532d;
+    }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: linear-gradient(180deg, #eefbf3 0%, var(--bg) 28%);
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+    h1 {
+      font-size: 2.3rem;
+      margin-bottom: 8px;
+    }
+    .lead {
+      color: var(--muted);
+      max-width: 850px;
+      line-height: 1.6;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 24px;
+      margin-top: 24px;
+      box-shadow: 0 14px 30px rgba(15, 23, 42, 0.06);
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 14px;
+      margin: 16px 0 24px;
+    }
+    .stats div {
+      background: #f8fafc;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .stats span {
+      font-size: 1.15rem;
+      color: var(--accent);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    img {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+    }
+    @media (min-width: 960px) {
+      .grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Onion and Tomato Price Analysis</h1>
+    <p class="lead">This dashboard summarizes daily market price data from Pune district for onion and tomato using the CSV extracts available in the project. The machine-learning section uses a ridge regression model with lagged price features, calendar features, and weather information aggregated from all six available NASA POWER weather files to predict the next observed daily average modal price.</p>
+    
+      <section class="card">
+        <h2>Onion</h2>
+        <div class="stats">
+          <div><strong>Records</strong><span>19,754</span></div>
+          <div><strong>Markets</strong><span>29</span></div>
+          <div><strong>Date range</strong><span>2015-01-01 to 2026-03-12</span></div>
+          <div><strong>Mean modal price</strong><span>1573.77</span></div>
+          <div><strong>Median modal price</strong><span>1275</span></div>
+          <div><strong>Std dev</strong><span>1170.06</span></div>
+          <div><strong>Model RMSE</strong><span>222.35</span></div>
+          <div><strong>Model R2</strong><span>0.9396</span></div>
+          <div><strong>Outlier percentage</strong><span>6.85%</span></div>
+        </div>
+        <div class="grid">
+          <img src="./charts/onion_monthly_trend.svg" alt="Onion monthly trend" />
+          <img src="./charts/onion_seasonality.svg" alt="Onion seasonality" />
+          <img src="./charts/onion_top_markets.svg" alt="Onion markets" />
+          <img src="./charts/onion_price_distribution.svg" alt="Onion distribution" />
+          <img src="./charts/onion_prediction_vs_actual.svg" alt="Onion prediction model" />
+          <img src="./charts/onion_actual_vs_predicted_scatter.svg" alt="Onion scatter diagnostic" />
+          <img src="./charts/onion_residual_distribution.svg" alt="Onion residual distribution" />
+          <img src="./charts/onion_correlation_heatmap.svg" alt="Onion correlation heatmap" />
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Tomato</h2>
+        <div class="stats">
+          <div><strong>Records</strong><span>18,760</span></div>
+          <div><strong>Markets</strong><span>18</span></div>
+          <div><strong>Date range</strong><span>2015-01-01 to 2026-03-12</span></div>
+          <div><strong>Mean modal price</strong><span>1587.95</span></div>
+          <div><strong>Median modal price</strong><span>1250</span></div>
+          <div><strong>Std dev</strong><span>1173.37</span></div>
+          <div><strong>Model RMSE</strong><span>274.64</span></div>
+          <div><strong>Model R2</strong><span>0.8946</span></div>
+          <div><strong>Outlier percentage</strong><span>5.33%</span></div>
+        </div>
+        <div class="grid">
+          <img src="./charts/tomato_monthly_trend.svg" alt="Tomato monthly trend" />
+          <img src="./charts/tomato_seasonality.svg" alt="Tomato seasonality" />
+          <img src="./charts/tomato_top_markets.svg" alt="Tomato markets" />
+          <img src="./charts/tomato_price_distribution.svg" alt="Tomato distribution" />
+          <img src="./charts/tomato_prediction_vs_actual.svg" alt="Tomato prediction model" />
+          <img src="./charts/tomato_actual_vs_predicted_scatter.svg" alt="Tomato scatter diagnostic" />
+          <img src="./charts/tomato_residual_distribution.svg" alt="Tomato residual distribution" />
+          <img src="./charts/tomato_correlation_heatmap.svg" alt="Tomato correlation heatmap" />
+        </div>
+      </section>
+  </div>
+</body>
+</html>

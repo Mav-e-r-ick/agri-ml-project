@@ -1,0 +1,51 @@
+{
+  "dateRange": {
+    "start": "2017-06-16",
+    "end": "2026-03-06"
+  },
+  "commonDates": 3186,
+  "petrolSummary": {
+    "count": 3186,
+    "mean": 95.31,
+    "median": 103.44,
+    "std": 12.94,
+    "min": 73.23,
+    "q1": 80.59,
+    "q3": 106.31,
+    "max": 120.51,
+    "iqr": 25.72,
+    "cv": 0.14
+  },
+  "dieselSummary": {
+    "count": 3186,
+    "mean": 83.44,
+    "median": 90.03,
+    "std": 12.27,
+    "min": 58.19,
+    "q1": 70.09,
+    "q3": 94.27,
+    "max": 106.62,
+    "iqr": 24.18,
+    "cv": 0.15
+  },
+  "petrolModel": {
+    "mae": 0.01,
+    "rmse": 0.03,
+    "r2": 0.9204
+  },
+  "petrolBaseline": {
+    "mae": 0,
+    "rmse": 0.03,
+    "r2": 0.9314
+  },
+  "dieselModel": {
+    "mae": 0.02,
+    "rmse": 0.09,
+    "r2": 0.9302
+  },
+  "dieselBaseline": {
+    "mae": 0,
+    "rmse": 0.09,
+    "r2": 0.9335
+  }
+}

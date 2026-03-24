@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Integrated Onion and Tomato Price Intelligence Report</title>
+<style>
+:root { --bg:#f8fafc; --card:#fff; --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --accent:#14532d; }
+body { margin:0; font-family: Georgia, "Times New Roman", serif; background:linear-gradient(180deg,#effcf4 0%,#f8fafc 34%); color:var(--ink); }
+.wrap { max-width: 1240px; margin:0 auto; padding:30px 20px 48px; }
+h1 { margin:0 0 10px; font-size:2.2rem; }
+.lead { color:var(--muted); line-height:1.6; max-width:940px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:22px; margin-top:22px; box-shadow:0 12px 30px rgba(15,23,42,.06); }
+.stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin:18px 0 22px; }
+.stats div { border:1px solid var(--line); border-radius:12px; padding:12px 14px; background:#fff; }
+.stats strong { display:block; margin-bottom:6px; }
+.stats span { color:var(--accent); font-size:1.15rem; }
+.grid { display:grid; grid-template-columns:1fr; gap:18px; }
+img { width:100%; border:1px solid var(--line); border-radius:12px; background:#fff; }
+ul, ol { line-height:1.6; }
+@media (min-width: 960px) { .grid { grid-template-columns:1fr 1fr; } }
+@media print { body { background:#fff; } .card { box-shadow:none; } }
+</style></head><body><div class="wrap">
+<h1>Integrated Onion and Tomato Mandi Price Intelligence Report</h1>
+<p class="lead">This report combines Pune district onion and tomato mandi prices with nearby district weather information and Mumbai petrol and diesel prices. It covers descriptive analysis, exploratory analysis, correlation review, diagnostic analysis, predictive modeling, future forecasting, and prescriptive action guidance.</p>
+<section class="card"><h2>Executive Summary</h2>
+<div class="stats">
+<div><strong>Integrated common dates</strong><span>3085</span></div>
+<div><strong>Onion model R2</strong><span>0.9371</span></div>
+<div><strong>Onion model RMSE</strong><span>247.88</span></div>
+<div><strong>Tomato model R2</strong><span>0.894</span></div>
+<div><strong>Tomato model RMSE</strong><span>287.84</span></div>
+<div><strong>Onion CV lambda</strong><span>0.1</span></div>
+<div><strong>Tomato CV lambda</strong><span>0.1</span></div>
+</div>
+<ol>
+<li>Onion uses longer lag windows because it is less perishable and retains temporal memory for longer periods.</li>
+<li>Tomato uses shorter lag windows because the price reacts more quickly to fresh arrivals and spoilage pressure.</li>
+<li>Ridge regression plus time-series cross-validation was used to control collinearity risk and test model robustness.</li>
+</ol></section>
+<section class="card"><h2>Exploratory Data Analysis</h2><div class="grid">
+<img src="./charts/combined_monthly_price_trend.svg" alt="Combined trend chart" />
+<img src="./charts/combined_monthly_seasonality.svg" alt="Combined seasonality chart" />
+<img src="./charts/onion_correlation_heatmap.svg" alt="Onion correlation chart" />
+<img src="./charts/tomato_correlation_heatmap.svg" alt="Tomato correlation chart" />
+</div></section>
+<section class="card"><h2>Model Diagnostics and Forecasting</h2><div class="grid">
+<img src="./charts/onion_prediction_vs_actual.svg" alt="Onion predictive performance chart" />
+<img src="./charts/tomato_prediction_vs_actual.svg" alt="Tomato predictive performance chart" />
+<img src="./charts/onion_diagnostic_scatter.svg" alt="Onion diagnostic scatter" />
+<img src="./charts/tomato_diagnostic_scatter.svg" alt="Tomato diagnostic scatter" />
+<img src="./charts/future_forecast_comparison.svg" alt="Future forecast chart" />
+</div></section>
+<section class="card"><h2>Prescriptive Analysis</h2><ul><li>Onion is forecasted to soften over the next two weeks, so traders should consider faster release, especially if holding costs and shrinkage risk increase.</li><li>Tomato is forecasted to weaken or remain fragile, so the prescriptive action is to prioritize immediate harvesting, sorting, and dispatch to reduce spoilage losses.</li><li>Current low rainfall conditions suggest transport friction is not the main constraint, so price planning can focus more on demand and arrivals.</li><li>Higher Mumbai fuel prices imply transport cost pressure, so grouping shipments and optimizing route density can help protect margins.</li></ul></section>
+</div></body></html>

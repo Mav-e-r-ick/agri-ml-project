@@ -1,0 +1,99 @@
+{
+  "onion": {
+    "descriptive": {
+      "count": 19754,
+      "mean": 1573.77,
+      "median": 1275,
+      "std": 1170.06,
+      "min": 6,
+      "q1": 900,
+      "q3": 1900,
+      "max": 75000,
+      "iqr": 1000,
+      "cv": 0.74
+    },
+    "outliers": {
+      "lower": -600,
+      "upper": 3400,
+      "count": 1353,
+      "percentage": 6.85
+    },
+    "dataQuality": {
+      "missingCounts": {
+        "date": 0,
+        "market": 0,
+        "minPrice": 0,
+        "maxPrice": 0,
+        "modalPrice": 0
+      },
+      "duplicateCount": 0,
+      "duplicatePercentage": 0
+    },
+    "model": {
+      "mae": 131.69,
+      "rmse": 222.35,
+      "r2": 0.9396
+    },
+    "baseline": {
+      "mae": 141.36,
+      "rmse": 249.56,
+      "r2": 0.924
+    }
+  },
+  "tomato": {
+    "descriptive": {
+      "count": 18760,
+      "mean": 1587.95,
+      "median": 1250,
+      "std": 1173.37,
+      "min": 10,
+      "q1": 850,
+      "q3": 2000,
+      "max": 15000,
+      "iqr": 1150,
+      "cv": 0.74
+    },
+    "outliers": {
+      "lower": -875,
+      "upper": 3725,
+      "count": 1000,
+      "percentage": 5.33
+    },
+    "dataQuality": {
+      "missingCounts": {
+        "date": 0,
+        "market": 0,
+        "minPrice": 0,
+        "maxPrice": 0,
+        "modalPrice": 0
+      },
+      "duplicateCount": 0,
+      "duplicatePercentage": 0
+    },
+    "model": {
+      "mae": 188.86,
+      "rmse": 274.64,
+      "r2": 0.8946
+    },
+    "baseline": {
+      "mae": 198.72,
+      "rmse": 289.6,
+      "r2": 0.8828
+    }
+  },
+  "weather": {
+    "weatherFilesUsed": [
+      "Ahmednagar_Daily_20150101_20260314_018d22N_074d53E_LST.csv",
+      "Kalyan_Daily_20150101_20260314_019d24N_073d13E_LST.csv",
+      "Mumbai_Daily_20150101_20260314_018d97N_072d82E_LST.csv",
+      "Nashik_Weather_Daily_20150101_20260314_019d99N_073d78E_LST.csv",
+      "Pune_weather_Daily_20150101_20260314_018d62N_073d61E_LST.csv",
+      "Satara_Daily_20150101_20260314_017d69N_074d01E_LST.csv"
+    ],
+    "locationCount": 6,
+    "weatherDateRange": {
+      "start": "2015-01-01",
+      "end": "2026-03-14"
+    }
+  }
+}

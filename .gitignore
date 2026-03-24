@@ -1,0 +1,6 @@
+fuel_analysis_output/chrome_profile*/
+fuel_analysis_output/edge_profile/
+integrated_mandi_output/chrome_profile*/
+integrated_mandi_output/~$*.pptx
+.DS_Store
+Thumbs.db
